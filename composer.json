@@ -9,7 +9,7 @@
     "require": {
         "php": ">=5.4.1",
         "aerialship/lightsaml": "dev-master",
-        "symfony/symfony": "~2.2"
+        "symfony/symfony": "~2.3"
     },
     "suggest": {
         "doctrine/orm": "If you want store sso state to database"
@@ -24,5 +24,10 @@
         "bin-dir": "bin"
     },
     "prefer-stable": true,
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    }
 }
